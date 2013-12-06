@@ -147,3 +147,40 @@ q:before, q:after {
 		width: 91.666666666667%;
 	}	
 }
+.lt-ie9 .column{
+	padding-top: 0;
+	float: left;
+}
+.lt-ie9 .one{
+	width: 8.333333333333%;
+}
+.lt-ie9 .two{
+	width: 16.666666666667%;
+}
+.lt-ie9 .three{
+	width: 25%;
+}
+.lt-ie9 .four{
+	width: 33.33333333333%;
+}
+.lt-ie9 .five{
+	width: 41.666666666667%;
+}
+.lt-ie9 .six{
+	width: 50%;
+}
+.lt-ie9 .seven{
+	width: 58.333333333333%;
+}
+.lt-ie9 .eight{
+	width: 66.666666666667%;
+}
+.lt-ie9 .nine{
+	width: 75%;
+}
+.lt-ie9 .ten{
+	width: 83.333333333333%;
+}
+.lt-ie9 .eleven{
+	width: 91.666666666667%;
+}	
