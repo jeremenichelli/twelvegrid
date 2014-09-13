@@ -5,7 +5,92 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Grid Sample</title>
-	<link rel="stylesheet" href="css/twelve-grid.css">
+
+	<!--  RESET  -->
+	<style>
+		/* http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126 */
+		html, body, div, span, applet, object, iframe,
+		h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+		a, abbr, acronym, address, big, cite, code,
+		del, dfn, em, img, ins, kbd, q, s, samp,
+		small, strike, strong, sub, sup, tt, var,
+		b, u, i, center,
+		dl, dt, dd, ol, ul, li,
+		fieldset, form, label, legend,
+		table, caption, tbody, tfoot, thead, tr, th, td,
+		article, aside, canvas, details, embed, 
+		figure, figcaption, footer, header, hgroup, 
+		menu, nav, output, ruby, section, summary,
+		time, mark, audio, video {
+			margin: 0;
+			padding: 0;
+			border: 0;
+			font-size: 100%;
+			font: inherit;
+			vertical-align: baseline;
+		}
+		/* HTML5 display-role reset for older browsers */
+		article, aside, details, figcaption, figure, 
+		footer, header, hgroup, menu, nav, section {
+			display: block;
+		}
+		blockquote, q {
+			quotes: none;
+		}
+		blockquote:before, blockquote:after,
+		q:before, q:after {
+			content: '';
+			content: none;
+		}
+		body {
+			padding: 5px 10px 10px;
+		}
+	</style>
+
+	<!--  COLORIZE GRID  -->
+	<style>
+		.column {
+			min-height: 50px !important;
+		}
+		.one{
+			background-color: #E811F7;
+		}
+		.two{
+			background-color: #D700E6;
+		}
+		.three{
+			background-color: #C500D5;
+		}
+		.four{
+			background-color: #B300C4;
+		}
+		.five{
+			background-color: #F7E811;
+		}
+		.six{
+			background-color: #E6D700;
+		}
+		.seven{
+			background-color: #D5C600;
+		}
+		.eight{
+			background-color: #C4B300;
+		}
+		.nine{
+			background-color: #11F7E8;
+		}
+		.ten{
+			background-color: #00E6D7;
+		}
+		.eleven{
+			background-color: #00D5C6;
+		}
+		.twelve{
+			background-color: #00C4B5;
+		}
+	</style>
+
+	<link rel="stylesheet" href="dist/twelvegrid.css">
 </head>
 <body>
 	<div class="row">
