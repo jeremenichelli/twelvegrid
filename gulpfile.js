@@ -8,8 +8,8 @@ var gulp = require('gulp'),
     header = '/* ' + package.title + ' - ' + package.author + ' */\n' +
             '/* ' + package.repository.url + ' - MIT License */\n\n',
     paths = {
-        src: 'src/*.less',
-        dist: 'dist/*.css',
+        src: 'src/' + package.name + '.less',
+        dist: 'dist/' + package.name + '.css',
         output: 'dist/'
     };
 

@@ -22,76 +22,75 @@
     }
 }
 
-@verticalGap: 20px;
-@horizontalGap: 20px;
+@columnGap: 3%;
 
 /* --- GRID --- */
 .row{
     .clearfix();
-    margin: @verticalGap 0 0;
+    margin: 20px 0 0;
 }
-.grid {
+.grid() {
     .column{
         float: left;
+        margin: 0 0 0 @columnGap;
         min-height: 1px;
-        padding: 0 0 0 @horizontalGap;
 
         &:first-child {
-            padding-left: 0;
+            margin: 0;
         }
 
         &.one {
-            width: 8.333333333333%;
+            width: 5.583333333333333%;
         }
 
-        &.two{
-            width: 16.666666666667%;
+        &.two {
+            width: 14.166666666666666%;
         }
 
         &.three {
-            width: 25%;
+            width: 22.75%;
         }
 
-        &.four{
-            width: 33.33333333333%;
+        &.four {
+            width: 31.333333333333332%;
         }
 
         &.five {
-            width: 41.666666666667%;
+            width: 39.916666666666664%;
         }
 
-        &.six{
-            width: 50%;
+        &.six {
+            width: 48.5%;
         }
 
-        &.seven{
-            width: 58.333333333333%;
+        &.seven {
+            width: 57.08333333333333%;
         }
 
-        &.eight{
-            width: 66.666666666667%;
+        &.eight {
+            width: 65.66666666666666%;
         }
 
-        &.nine{
-            width: 75%;
+        &.nine {
+            width: 74.25%;
         }
 
-        &.ten{
-            width: 83.333333333333%;
+        &.ten {
+            width: 82.83333333333333%;
         }
 
-        &.eleven{
-            width: 91.666666666667%;
+        &.eleven {
+            width: 91.41666666666666%;
         }
 
-        &.twelve{
+        &.twelve {
             width: 100%;
-        }   
+        }
     }
 }
 @media (min-width: 768px){
-    .grid;
+    .grid();
 }
 .lt-ie9 {
-    .grid;
+    .grid();
 }
